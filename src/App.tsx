@@ -1,10 +1,7 @@
-// import React from 'react';
-import logo from "./logo.svg";
-import "./App.css";
-import Login from "./login";
+import Form from "./screens/login.screen";
 
 function App() {
-  return <Login />;
+  return <Form />;
 }
 
 export default App;
