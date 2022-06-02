@@ -1,6 +1,9 @@
 import { Grid } from "@mui/material";
-import { useCallback, useMemo, useState } from "react";
-import { Button, Error, Input, Wrapper } from "./login.styled";
+import { useCallback, useState } from "react";
+import { Wrapper } from "./login.styled";
+import { StyledInput } from "../../components/input/input.styled";
+import { StyledButton } from "../../components/button/button.styled";
+import { StyledError } from "../../components/error-message/message.styled";
 import * as yup from "yup";
 
 export default function Form() {
@@ -50,22 +53,22 @@ export default function Form() {
   return (
     <Wrapper container alignContent="center" justifyContent="center">
       <Grid item xs={4}>
-        <Input
+        <StyledInput
           type="email"
           name="email"
           placeholder="E-mail"
           warning={error.includes("email") && true}
           onChange={handleChange}
         />
-        <Input
+        <StyledInput
           type="password"
           name="password"
           placeholder="Senha"
           warning={error.includes("senha") && true}
           onChange={handleChange}
         />
-        <Button onClick={handleSend}>Enviar</Button>
-        <Error>{error}</Error>
+        <StyledButton onClick={handleSend}>Enviar</StyledButton>
+        <StyledError>{error}</StyledError>
       </Grid>
     </Wrapper>
   );

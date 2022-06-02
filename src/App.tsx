@@ -1,4 +1,4 @@
-import Form from "./screens/login.screen";
+import Form from "./screens/login/login.screen";
 
 function App() {
   return <Form />;
