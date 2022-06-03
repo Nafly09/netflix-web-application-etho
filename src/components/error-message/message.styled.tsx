@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledError = styled.p`
-  color: #e31a13;
-  font-weight: 800;
+  color: ${(props) => props.theme.palette.typography.danger};
+  font-weight: ${(props) => props.theme.typography.weights.focus};
+  text-align: center;
 `;

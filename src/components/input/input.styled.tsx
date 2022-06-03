@@ -21,18 +21,23 @@ const shakeAnimation = keyframes`
 `;
 
 export const StyledInput = styled("input")<{ warning?: boolean }>`
-  width: calc(100% - 18px);
+  box-sizing: border-box;
+  width: 100%;
   padding: 10px;
   margin: 0 0 22px;
   border-radius: 5px;
   border: ${(props) =>
-    props.warning ? "2px solid #e32a13" : "1px solid black"};
+    props.warning
+      ? props.theme.standardization.button_borders.danger
+      : props.theme.standardization.button_borders.primary};
   animation-name: ${(props) => props.warning && shakeAnimation};
   animation-duration: 0.82s;
+  ::placeholder {
+    color: ${(props) => props.theme.palette.typography.contrast};
+    font-family: ${(props) => props.theme.typography.fonts.secondary};
+    font-size: ${(props) => props.theme.typography.sizes.placeholders};
+  }
   :focus {
-    outline: none;
-    ::placeholder {
-      color: #e32a13;
-    }
+    outline: 1px solid ${(props) => props.theme.palette.core.primary};
   }
 `;
