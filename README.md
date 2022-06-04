@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Netflix Clone Etho Bootcamp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Essa aplicação foi desenvolvida com intuito de aprofundar e evoluir os conceitos de stacks quem envolvem Front e Backend. (Ainda em desenvolvimento)
 
-## Available Scripts
+## Instalação
 
-In the project directory, you can run:
+Use o gerenciador de pacotes [npm](https://nodejs.org/en/download/) para instalar as dependências da aplicação.
 
-### `npm start`
+```bash
+npm i
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm run start
+```
 
-### `npm test`
+## Experiência até o momento
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Entry 1
 
-### `npm run build`
+Tem sido uma experiência incrível aprender conceitos de maneira aprofundada, em questão do código o projeto ainda se encontra bastante limitado pois o foco não é ter um código extremamente robusto e sim aprofundar e fixar conceitos abstratos sobre os hooks e ferramentas. Em específico eu aprendi bem mais profundamente sobre o hook [useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback) e como ele é importante para otimização e consegue instantaneamente ver usos em que ele seria muito bem utilizado em projetos meus passados e como ele poderia otimizar pontos que encontrei na época.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Entry 2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Como o código se encontrava relativamente simples, como maneira de poder tanto me destacar um pouquinho e brincar um pouco com props no styled components, eu implementei um sistema de animação e checagem em qual input foi encontrado o erro para deixar mais explícito em qual campo ouve o erro, sempre me divirto fazendo esse tipo de coisa.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Entry 3
 
-### `npm run eject`
+Temas sempre foi um assunto que queria aprender realmente como funciona desde que vi seu conceito á 1 ano atrás no [Material UI](https://mui.com/). Eu com certeza consegui entender muito melhor o conceito mas vou fazer questão de perguntar em próximas oportunidades outros exemplos de uso.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Entry 4
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Finalizando o a primeira semana com [Redux](https://redux.js.org/) meu grande nêmesis. Infelizmente não tivemos a oportunidade de aprofundar mais nesse primeiro momento por ausência de endpoints do backend para implementar com o axios, porém o Diego deixou claro que o assunto será aprofundado na próxima oportunidade, ansioso pra finalmente entender isso de verdade. O maior aprendizado que eu tirei desse dia de aula definitivamente foi o conceito de referência e como ele é algo tão abstrato e específico da linguagem mas sempre é negligenciado. Só de tirar esse conhecimento já fez o bootcamp valer completamente á pena.
+**Continua...**
